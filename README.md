@@ -1,4 +1,4 @@
-# Princeton-Algorithm
+# Algorithm
 
 Programming assignments for the "Algorithms, Part I" on Coursera.
 
