@@ -110,19 +110,7 @@ public class Percolation {
     }
 
     public static void main(String[] args) {
-        Percolation test = new Percolation(5);
-        test.open(1, 2);
-        test.open(2, 2);
-        test.open(2, 2);
-        test.open(3, 2);
-        test.open(4, 2);
-        test.open(5, 2);
-        test.open(5, 5);
-        int i = test.numberOfOpenSites();
-        int j = test.gridIndex(2, 1);
-
-        System.out.println(test.isFull(5, 5));
-        System.out.println(i);
+      
 
     }
 }
