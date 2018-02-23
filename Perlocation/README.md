@@ -1,4 +1,3 @@
-{::nomarkdown}
 
 <!-- HTML CODE-->
 
@@ -355,4 +354,3 @@ This assignment was developed by Bob Sedgewick and Kevin Wayne.
 </BODY></HTML>
 
 
-{:/}
