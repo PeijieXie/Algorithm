@@ -74,13 +74,13 @@ flowing from top to bottom.)
 
 <center>
 <blockquote>
-<img src = "percolates-yes.png" height = 175 align = "top" alt = "percolates">
+<img src = "http://coursera.cs.princeton.edu/algs4/assignments/percolates-yes.png" height = 175 align = "top" alt = "percolates">
 &nbsp;
 &nbsp;
 &nbsp;
 &nbsp;
 &nbsp;
-<img src = "percolates-no.png" height = 175 align = "top" alt = "does not percolate">
+<img src = "http://coursera.cs.princeton.edu/algs4/assignments/percolates-no.png" height = 175 align = "top" alt = "does not percolate">
 </blockquote>
 </center>
 
@@ -104,11 +104,11 @@ probability for 20-by-20 random grid (left) and 100-by-100 random grid (right).
 <p>
 
 <center>
-<img src = "percolation-threshold20.png" height = 175 alt = "Percolation threshold for 20-by-20 grid">
+<img src = "http://coursera.cs.princeton.edu/algs4/assignments/percolation-threshold20.png" height = 175 alt = "Percolation threshold for 20-by-20 grid">
 &nbsp;&nbsp;&nbsp;&nbsp;
 &nbsp;&nbsp;&nbsp;&nbsp;
 &nbsp;&nbsp;&nbsp;&nbsp;
-<img src = "percolation-threshold100.png" height = 175 alt = "Percolation threshold for 100-by-100 grid">
+<img src = "http://coursera.cs.princeton.edu/algs4/assignments/percolation-threshold100.png" height = 175 alt = "Percolation threshold for 100-by-100 grid">
 &nbsp;&nbsp;&nbsp;&nbsp;
 &nbsp;&nbsp;&nbsp;&nbsp;
 </center>
@@ -184,13 +184,13 @@ percolates when the 204th site is opened.
 <TABLE BORDER = 0 CELLPADDING =2 CELLSPACING = 0>
 <tr>
 <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<td><IMG SRC="percolation-50.png" height = 175 alt = "Percolation 50 sites">
+<td><IMG SRC="http://coursera.cs.princeton.edu/algs4/assignments/percolation-50.png" height = 175 alt = "Percolation 50 sites">
 <br><center><font size = -1><em>50 open sites</em></font></center>
-<td><IMG SRC="percolation-100.png" height = 175 alt = "Percolation 100 sites">
+<td><IMG SRC="http://coursera.cs.princeton.edu/algs4/assignments/percolation-100.png" height = 175 alt = "Percolation 100 sites">
 <br><center><font size = -1><em>100 open sites</em></font></center>
-<td><IMG SRC="percolation-150.png" height = 175 alt = "Percolation 150 sites">
+<td><IMG SRC="http://coursera.cs.princeton.edu/algs4/assignments/percolation-150.png" height = 175 alt = "Percolation 150 sites">
 <br><center><font size = -1><em>150 open sites</em></font></center>
-<td><IMG SRC="percolation-204.png" height = 175 alt = "Percolation 204 sites">
+<td><IMG SRC="http://coursera.cs.princeton.edu/algs4/assignments/percolation-204.png" height = 175 alt = "Percolation 204 sites">
 <br><center><font size = -1><em>204 open sites</em></font></center>
 <!--
 <td><IMG SRC="percolation-250.png" height = 175 alt = "Percolation 250 sites">
