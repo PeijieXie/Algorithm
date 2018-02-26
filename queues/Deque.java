@@ -1,4 +1,3 @@
-
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
@@ -108,11 +107,11 @@ public class Deque<Item> implements Iterable<Item>{
         
         @Override
         public boolean hasNext(){
-            return (current.next.next != null);
+            return (current.next != null);
         }
         @Override
         public void remove(){
-            throw new NoSuchElementException();
+            throw new UnsupportedOperationException();
         }
         @Override
         public Item next(){
