@@ -52,6 +52,9 @@ public class RandomizedQueue<Item> implements Iterable<Item>{
         if (isEmpty()) {
             throw new NoSuchElementException("RandomizedQueue is empty.");
         }
+        if(size == q.length / 4){
+            resize(q.length / 2);
+        }
         int random = StdRandom.uniform(0, size);
         Item selected = q[random];
         q[random] = q[size - 1];
@@ -88,14 +91,12 @@ public class RandomizedQueue<Item> implements Iterable<Item>{
         RandomizedIterator(){
             copyRandQueue = new RandomizedQueue();
             copyRandQueue.size = size;
-            copyRandQueue.q = q;
-            /*Item[] copyq;
+            Item[] copyq;
             copyq = (Item[])new Object[size];
             for (int i = 0; i < size; i++){
                 copyq[i] = q[i];
             }
             copyRandQueue.q = copyq;
-            */
         }
         
         @Override
@@ -106,7 +107,7 @@ public class RandomizedQueue<Item> implements Iterable<Item>{
         @Override
         public Item next(){
             if (!hasNext()){
-                throw new UnsupportedOperationException();
+                throw new NoSuchElementException();
             }
             Item next = (Item)copyRandQueue.dequeue();
             return(next);
