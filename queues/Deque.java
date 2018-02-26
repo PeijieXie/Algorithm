@@ -106,13 +106,13 @@ public class Deque<Item> implements Iterable<Item>{
     
         private Node current = head.next;
         
-         @Override
+        @Override
         public boolean hasNext(){
-            return (current != tail);
+            return (current.next.next != null);
         }
         @Override
         public void remove(){
-            throw new UnsupportedOperationException();
+            throw new NoSuchElementException();
         }
         @Override
         public Item next(){
